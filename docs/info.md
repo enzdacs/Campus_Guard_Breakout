@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The Campus Sentinel 2.0 monitors smoke, motion, door, and panic inputs, then uses an FSM to determine the system status and activate the appropriate warning, evacuation, buzzer, and exit-routing outputs.
 
 ## How to test
 
-Explain how to use your project
+Apply different combinations of Smoke, Motion, Door, Panic, Reset, and Ack inputs in Wokwi and verify that the Safe, Warning, Critical, Evacuate, Buzzer, and Route outputs respond according to the defined conditions.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware is required because the system can be simulated entirely in Wokwi using virtual switches, LEDs, a buzzer, and a clock generator.
